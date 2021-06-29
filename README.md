@@ -4,16 +4,16 @@ This GNU Radio out-of-tree module will toggle a Clapper Plus device by transmitt
 
 The remote: 
 
-![Clapper Remote](Clapper_Plus_915_Remote.png)
+![Clapper Remote](/examples/Clapper_Plus_915_Remote.png)
 
 A sequence of bursts (zoomed out):
 
-![Clapper Signal Zoom Out](Clapper_Plus_433_time.png)
+![Clapper Signal Zoom Out](/examples/Clapper_Plus_433_time.png)
 
 A single burst with 22 pulses (zoomed in):
 
-![Clapper Signal Zoom In](Clapper_Plus_433_zoom.png)
+![Clapper Signal Zoom In](/examples/Clapper_Plus_433_zoom.png)
 
 My notes:
 
-![Clapper Notes](Clapper_Plus_433.png)
+![Clapper Notes](/examples/Clapper_Plus_433.png)
