@@ -22,16 +22,15 @@
 This is the GNU Radio CLAPPER_PLUS module. Place your Python package
 description here (python/__init__.py).
 '''
+from __future__ import unicode_literals
 
 # import swig generated symbols into the clapper_plus namespace
 try:
-	# this might fail if the module is python-only
-	from clapper_plus_swig import *
+    # this might fail if the module is python-only
+    from .clapper_plus_swig import *
 except ImportError:
-	pass
+    pass
 
 # import any pure python here
-from message_generator_433 import message_generator_433
-
-
+from .message_generator_433 import message_generator_433
 #

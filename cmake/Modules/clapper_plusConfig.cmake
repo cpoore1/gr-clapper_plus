@@ -22,9 +22,10 @@ FIND_LIBRARY(
           /usr/local/lib64
           /usr/lib
           /usr/lib64
-)
+          )
+
+include("${CMAKE_CURRENT_LIST_DIR}/clapper_plusTarget.cmake")
 
 INCLUDE(FindPackageHandleStandardArgs)
 FIND_PACKAGE_HANDLE_STANDARD_ARGS(CLAPPER_PLUS DEFAULT_MSG CLAPPER_PLUS_LIBRARIES CLAPPER_PLUS_INCLUDE_DIRS)
 MARK_AS_ADVANCED(CLAPPER_PLUS_LIBRARIES CLAPPER_PLUS_INCLUDE_DIRS)
-
